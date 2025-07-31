@@ -3,13 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ztsCream.github.io/tags/ai/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/tags/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/tags/ai/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/p/ai%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/p/ai-project-practice/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/p/ai%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/categories/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -22,52 +42,122 @@
                 />
   </url><url>
     <loc>https://ztsCream.github.io/post/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/post/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
   </url><url>
     <loc>https://ztsCream.github.io/tags/%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
   </url><url>
     <loc>https://ztsCream.github.io/p/newnew/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/p/newnew/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/p/newnew/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/tags/%E5%88%86%E4%BA%AB/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
   </url><url>
     <loc>https://ztsCream.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
   </url><url>
     <loc>https://ztsCream.github.io/tags/%E5%BF%83%E6%83%85/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
   </url><url>
     <loc>https://ztsCream.github.io/tags/hugo/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/tags/hugo/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/p/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/p/hugo-blog-setup-guide/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/p/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%8C%87%E5%8D%97/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
   </url><url>
     <loc>https://ztsCream.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
   </url><url>
     <loc>https://ztsCream.github.io/tags/%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
   </url><url>
     <loc>https://ztsCream.github.io/page/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/page/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/%E5%88%86%E7%B1%BB-%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/categories-tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/%E5%88%86%E7%B1%BB-%E6%A0%87%E7%AD%BE/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/archives/</loc>
-    <lastmod>2025-07-30T20:48:45+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/archives/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/</loc>
-    <lastmod>2025-07-30T20:48:45+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -80,7 +170,7 @@
                 />
   </url><url>
     <loc>https://ztsCream.github.io/tags/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -93,21 +183,81 @@
                 />
   </url><url>
     <loc>https://ztsCream.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/categories/%E6%95%99%E7%A8%8B/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/categories/%E6%95%99%E7%A8%8B/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/%E9%93%BE%E6%8E%A5/</loc>
-    <lastmod>2025-07-30T20:48:45+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/links/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/%E9%93%BE%E6%8E%A5/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2025-07-31T15:27:51+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"
+                />
   </url><url>
     <loc>https://ztsCream.github.io/search/</loc>
-    <lastmod>2025-07-30T20:48:45+08:00</lastmod>
+    <lastmod>2025-07-31T15:40:47+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ztsCream.github.io/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://ztsCream.github.io/search/"
+                />
   </url>
 </urlset>

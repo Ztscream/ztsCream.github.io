@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on ztsCream&#39;s Blog</title>
+        <link>https://ztsCream.github.io/en/post/</link>
+        <description>Recent content in Posts on ztsCream&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>ztsCream</copyright>
+        <lastBuildDate>Thu, 31 Jul 2025 15:40:47 +0800</lastBuildDate><atom:link href="https://ztsCream.github.io/en/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI Project Practice</title>
+        <link>https://ztsCream.github.io/en/p/ai-project-practice/</link>
+        <pubDate>Thu, 31 Jul 2025 11:03:11 +0800</pubDate>
+        
+        <guid>https://ztsCream.github.io/en/p/ai-project-practice/</guid>
+        <description>&lt;h1 id=&#34;ai-project-practice&#34;&gt;AI Project Practice
+&lt;/h1&gt;&lt;p&gt;This is an article about AI project practice.&lt;/p&gt;
+&lt;h2 id=&#34;project-overview&#34;&gt;Project Overview
+&lt;/h2&gt;&lt;p&gt;Describe your AI project here&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;tech-stack&#34;&gt;Tech Stack
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;TensorFlow&lt;/li&gt;
+&lt;li&gt;Machine Learning Algorithms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary
+&lt;/h2&gt;&lt;p&gt;Experience and insights from project practice&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Newnew</title>
+        <link>https://ztsCream.github.io/en/p/newnew/</link>
+        <pubDate>Thu, 31 Jul 2025 09:55:45 +0800</pubDate>
+        
+        <guid>https://ztsCream.github.io/en/p/newnew/</guid>
+        <description>&lt;h1 id=&#34;i-love-you&#34;&gt;I love you
+&lt;/h1&gt;&lt;p&gt;This is a life notes article.&lt;/p&gt;
+&lt;img src=&#34;1.png&#34; style=&#34;zoom:30%;&#34; /&gt;
+&lt;h2 id=&#34;life-insights&#34;&gt;Life Insights
+&lt;/h2&gt;&lt;p&gt;Share your life insights here&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;mood-records&#34;&gt;Mood Records
+&lt;/h2&gt;&lt;p&gt;Record the beautiful moments in life&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Hugo Blog Setup Guide</title>
+        <link>https://ztsCream.github.io/en/p/hugo-blog-setup-guide/</link>
+        <pubDate>Wed, 01 Jan 2025 10:00:00 +0800</pubDate>
+        
+        <guid>https://ztsCream.github.io/en/p/hugo-blog-setup-guide/</guid>
+        <description>&lt;h1 id=&#34;hugo-blog-setup-guide&#34;&gt;Hugo Blog Setup Guide
+&lt;/h1&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;Hugo is a static site generator written in Go language, featuring fast speed, powerful functionality, and ease of use.&lt;/p&gt;
+&lt;h2 id=&#34;installing-hugo&#34;&gt;Installing Hugo
+&lt;/h2&gt;&lt;h3 id=&#34;windows-installation&#34;&gt;Windows Installation
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Download Hugo Extended version&lt;/li&gt;
+&lt;li&gt;Extract to specified directory&lt;/li&gt;
+&lt;li&gt;Add to system PATH&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;create-new-site&#34;&gt;Create New Site
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site myblog
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; myblog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;choose-theme&#34;&gt;Choose Theme
+&lt;/h2&gt;&lt;p&gt;Hugo has rich themes to choose from, recommend using Stack theme:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;configure-site&#34;&gt;Configure Site
+&lt;/h2&gt;&lt;p&gt;Configure site information in &lt;code&gt;hugo.yaml&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;baseurl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://yourdomain.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;My Blog&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;theme&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;hugo-theme-stack&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;create-content&#34;&gt;Create Content
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new post/my-first-post.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;local-preview&#34;&gt;Local Preview
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;deployment&#34;&gt;Deployment
+&lt;/h2&gt;&lt;h3 id=&#34;github-pages&#34;&gt;GitHub Pages
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Create GitHub repository&lt;/li&gt;
+&lt;li&gt;Configure GitHub Actions&lt;/li&gt;
+&lt;li&gt;Push code for automatic deployment&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary
+&lt;/h2&gt;&lt;p&gt;Hugo is an excellent static site generator, suitable for building personal blogs, technical documentation, and other websites.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
