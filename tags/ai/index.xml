@@ -7,16 +7,16 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>ztsCream</copyright>
-        <lastBuildDate>Thu, 31 Jul 2025 15:40:47 +0800</lastBuildDate><atom:link href="https://ztsCream.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>AI项目实践</title>
-        <link>https://ztsCream.github.io/p/ai%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</link>
+        <lastBuildDate>Thu, 31 Jul 2025 20:33:28 +0800</lastBuildDate><atom:link href="https://ztsCream.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>大模型应用开发极简入门：基于GPT-4和ChatGPT</title>
+        <link>https://ztsCream.github.io/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E6%9E%81%E7%AE%80%E5%85%A5%E9%97%A8%E5%9F%BA%E4%BA%8Egpt-4%E5%92%8Cchatgpt/</link>
         <pubDate>Thu, 31 Jul 2025 11:03:11 +0800</pubDate>
         
-        <guid>https://ztsCream.github.io/p/ai%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</guid>
-        <description>&lt;h1 id=&#34;ai项目实践&#34;&gt;AI项目实践
-&lt;/h1&gt;&lt;p&gt;这是一篇关于AI项目实践的文章。&lt;/p&gt;
+        <guid>https://ztsCream.github.io/p/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E6%9E%81%E7%AE%80%E5%85%A5%E9%97%A8%E5%9F%BA%E4%BA%8Egpt-4%E5%92%8Cchatgpt/</guid>
+        <description>&lt;h1 id=&#34;大模型应用开发极简入门基于gpt-4和chatgpt&#34;&gt;大模型应用开发极简入门：基于GPT-4和ChatGPT
+&lt;/h1&gt;&lt;p&gt;“如果你在路口遇到了岔路口，那就走小路。”&lt;/p&gt;
 &lt;h2 id=&#34;项目概述&#34;&gt;项目概述
-&lt;/h2&gt;&lt;p&gt;在这里描述您的AI项目&amp;hellip;&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;语言：python&lt;/p&gt;
 &lt;h2 id=&#34;技术栈&#34;&gt;技术栈
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Python&lt;/li&gt;
