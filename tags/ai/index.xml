@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>AI on ztsCream的博客</title>
+        <link>https://ztsCream.github.io/tags/ai/</link>
+        <description>Recent content in AI on ztsCream的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>ztsCream</copyright>
+        <lastBuildDate>Thu, 31 Jul 2025 15:27:51 +0800</lastBuildDate><atom:link href="https://ztsCream.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>AI项目实践</title>
+        <link>https://ztsCream.github.io/p/ai%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</link>
+        <pubDate>Thu, 31 Jul 2025 11:03:11 +0800</pubDate>
+        
+        <guid>https://ztsCream.github.io/p/ai%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5/</guid>
+        <description>&lt;h1 id=&#34;ai项目实践&#34;&gt;AI项目实践
+&lt;/h1&gt;&lt;p&gt;这是一篇关于AI项目实践的文章。&lt;/p&gt;
+&lt;h2 id=&#34;项目概述&#34;&gt;项目概述
+&lt;/h2&gt;&lt;p&gt;在这里描述您的AI项目&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;技术栈&#34;&gt;技术栈
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;TensorFlow&lt;/li&gt;
+&lt;li&gt;机器学习算法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结
+&lt;/h2&gt;&lt;p&gt;项目实践的经验和收获&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
