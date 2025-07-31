@@ -296,13 +296,13 @@
     
     <header class="article-category">
         
-            <a href="/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/" style="background-color: #2a9d8f; color: #fff;">
-                技术实践
-            </a>
+        <a href="/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/" style="background-color: #2a9d8f; color: #fff;" >
+            技术实践
+        </a>
         
-            <a href="/categories/%E6%95%99%E7%A8%8B/" style="background-color: #f4a261; color: #fff;">
-                教程
-            </a>
+        <a href="/categories/%E6%95%99%E7%A8%8B/" style="background-color: #f4a261; color: #fff;" >
+            教程
+        </a>
         
     </header>
     
@@ -311,7 +311,7 @@
         <h2 class="article-title">
             <a href="/p/%E5%9C%A8minikube%E4%B8%8A%E9%83%A8%E7%BD%B2eureka%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84/">在Minikube上部署Eureka微服务架构</a>
         </h2>
-    
+
         
     </div>
 
@@ -321,8 +321,8 @@
     
     <footer class="article-time">
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
   <circle cx="18" cy="18" r="4" />
@@ -331,13 +331,13 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 31, 2025</time>
-            </div>
+            <time class="article-time--published">Jul 31, 2025</time>
+        </div>
         
 
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="12" cy="12" r="9" />
   <polyline points="12 7 12 12 15 15" />
@@ -345,17 +345,27 @@
 
 
 
-                <time class="article-time--reading">
-                    阅读时长: 7 分钟
-                </time>
-            </div>
+            <time class="article-time--reading">
+                阅读时长: 7 分钟
+            </time>
+        </div>
         
     </footer>
     
 
     
-</div>
+    <footer class="article-time">
+        <div id="viewCount">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-eye"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" /></svg>
+            <time class="article-time--reading">
+                
+                <span id="vercount_value_page_pv">loading... </span>次
+            </time>
+        </div>
+    </footer>
 
+    
+</div>
 </header>
 
     <section class="article-content">
@@ -2089,19 +2099,36 @@
     }());
 </script>
 <div id="particles-js"></div>
-
-<script src=https://ztsCream.github.io/background/particles.min.js></script>
+<script defer src="https://cn.vercount.one/js"></script>
 <script>
-  particlesJS.load('particles-js', "https://ztsCream.github.io/background/particlesjs-config.json", function() {
+  function showHideView() {
+    let viewCounts = document.querySelectorAll("#viewCount");
+    if (viewCounts) {
+      let article = document.querySelector(".article-page");
+      if (!article) {
+        viewCounts.forEach(ele => {
+          ele.style.display = 'none';
+        });
+      }
+    }
+  }
+
+  showHideView();
+</script>
+<script src="https://ztsCream.github.io/background/particles.min.js"></script>
+<script>
+  particlesJS.load('particles-js', 'https:\/\/ztsCream.github.io\/background\/particlesjs-config.json', function () {
     console.log('particles.js loaded - callback');
   });
 </script>
+
+
 
 <style>
   body {
     position: relative;
     z-index: 0;
-    background: #1a1a1a;  
+    background: #1a1a1a;
   }
 
   body::before {
@@ -2112,15 +2139,14 @@
     width: 100%;
     height: 100%;
     
-    
       background-image: url(/background/background.png);
     
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    filter: brightness(60%);  
-    z-index: 0;  
+    filter: brightness(60%);
+    z-index: 0;
   }
 
   #particles-js {
@@ -2130,13 +2156,19 @@
     width: 100%;
     height: 100%;
     background: transparent;
-    z-index: 1;  
-    pointer-events: none;  
+    z-index: 1;
+    pointer-events: none;
   }
 
-  .container, header, nav, main, article, section, footer {
+  .container,
+  header,
+  nav,
+  main,
+  article,
+  section,
+  footer {
     position: relative;
-    z-index: 2;  
+    z-index: 2;
   }
 </style>
     </body>

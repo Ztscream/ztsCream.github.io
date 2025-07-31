@@ -467,19 +467,36 @@
     }());
 </script>
 <div id="particles-js"></div>
-
-<script src=https://ztsCream.github.io/background/particles.min.js></script>
+<script defer src="https://cn.vercount.one/js"></script>
 <script>
-  particlesJS.load('particles-js', "https://ztsCream.github.io/background/particlesjs-config.json", function() {
+  function showHideView() {
+    let viewCounts = document.querySelectorAll("#viewCount");
+    if (viewCounts) {
+      let article = document.querySelector(".article-page");
+      if (!article) {
+        viewCounts.forEach(ele => {
+          ele.style.display = 'none';
+        });
+      }
+    }
+  }
+
+  showHideView();
+</script>
+<script src="https://ztsCream.github.io/background/particles.min.js"></script>
+<script>
+  particlesJS.load('particles-js', 'https:\/\/ztsCream.github.io\/background\/particlesjs-config.json', function () {
     console.log('particles.js loaded - callback');
   });
 </script>
+
+
 
 <style>
   body {
     position: relative;
     z-index: 0;
-    background: #1a1a1a;  
+    background: #1a1a1a;
   }
 
   body::before {
@@ -490,15 +507,14 @@
     width: 100%;
     height: 100%;
     
-    
       background-image: url(/background/background.png);
     
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    filter: brightness(60%);  
-    z-index: 0;  
+    filter: brightness(60%);
+    z-index: 0;
   }
 
   #particles-js {
@@ -508,13 +524,19 @@
     width: 100%;
     height: 100%;
     background: transparent;
-    z-index: 1;  
-    pointer-events: none;  
+    z-index: 1;
+    pointer-events: none;
   }
 
-  .container, header, nav, main, article, section, footer {
+  .container,
+  header,
+  nav,
+  main,
+  article,
+  section,
+  footer {
     position: relative;
-    z-index: 2;  
+    z-index: 2;
   }
 </style>
     </body>

@@ -274,7 +274,7 @@
         <h2 class="article-title">
             <a href="/%E5%88%86%E7%B1%BB-%E6%A0%87%E7%AD%BE/">分类 &amp; 标签</a>
         </h2>
-    
+
         
         <h3 class="article-subtitle">
             浏览所有文章分类和标签
@@ -288,8 +288,8 @@
     
     <footer class="article-time">
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
   <circle cx="18" cy="18" r="4" />
@@ -298,13 +298,13 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jan 01, 2025</time>
-            </div>
+            <time class="article-time--published">Jan 01, 2025</time>
+        </div>
         
 
         
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
   <circle cx="12" cy="12" r="9" />
   <polyline points="12 7 12 12 15 15" />
@@ -312,17 +312,28 @@
 
 
 
-                <time class="article-time--reading">
-                    阅读时长: 1 分钟
-                </time>
-            </div>
+            <time class="article-time--reading">
+                阅读时长: 1 分钟
+            </time>
+        </div>
         
     </footer>
     
 
     
-        <footer class="article-translations">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <footer class="article-time">
+        <div id="viewCount">
+            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-eye"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" /></svg>
+            <time class="article-time--reading">
+                
+                <span id="vercount_value_page_pv">loading... </span>次
+            </time>
+        </div>
+    </footer>
+
+    
+    <footer class="article-translations">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M4 5h7" />
   <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
@@ -333,15 +344,14 @@
 
 
 
-            <div>
-                
-                    <a href="https://ztsCream.github.io/en/categories-tags/" class="link">English</a>
-                
-            </div>
-        </footer>
+        <div>
+            
+            <a href="https://ztsCream.github.io/en/categories-tags/" class="link">English</a>
+            
+        </div>
+    </footer>
     
 </div>
-
 </header>
 
     <section class="article-content">
@@ -834,19 +844,36 @@
     }());
 </script>
 <div id="particles-js"></div>
-
-<script src=https://ztsCream.github.io/background/particles.min.js></script>
+<script defer src="https://cn.vercount.one/js"></script>
 <script>
-  particlesJS.load('particles-js', "https://ztsCream.github.io/background/particlesjs-config.json", function() {
+  function showHideView() {
+    let viewCounts = document.querySelectorAll("#viewCount");
+    if (viewCounts) {
+      let article = document.querySelector(".article-page");
+      if (!article) {
+        viewCounts.forEach(ele => {
+          ele.style.display = 'none';
+        });
+      }
+    }
+  }
+
+  showHideView();
+</script>
+<script src="https://ztsCream.github.io/background/particles.min.js"></script>
+<script>
+  particlesJS.load('particles-js', 'https:\/\/ztsCream.github.io\/background\/particlesjs-config.json', function () {
     console.log('particles.js loaded - callback');
   });
 </script>
+
+
 
 <style>
   body {
     position: relative;
     z-index: 0;
-    background: #1a1a1a;  
+    background: #1a1a1a;
   }
 
   body::before {
@@ -857,15 +884,14 @@
     width: 100%;
     height: 100%;
     
-    
       background-image: url(/background/background.png);
     
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    filter: brightness(60%);  
-    z-index: 0;  
+    filter: brightness(60%);
+    z-index: 0;
   }
 
   #particles-js {
@@ -875,13 +901,19 @@
     width: 100%;
     height: 100%;
     background: transparent;
-    z-index: 1;  
-    pointer-events: none;  
+    z-index: 1;
+    pointer-events: none;
   }
 
-  .container, header, nav, main, article, section, footer {
+  .container,
+  header,
+  nav,
+  main,
+  article,
+  section,
+  footer {
     position: relative;
-    z-index: 2;  
+    z-index: 2;
   }
 </style>
     </body>
