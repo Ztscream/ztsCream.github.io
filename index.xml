@@ -130,39 +130,54 @@
         <description>&lt;h1 id=&#34;分类--标签&#34;&gt;分类 &amp;amp; 标签
 &lt;/h1&gt;&lt;h2 id=&#34;分类浏览&#34;&gt;分类浏览
 &lt;/h2&gt;
+&lt;section class=&#34;widget categoriesCloud&#34;&gt;
+    &lt;div class=&#34;widget-icon&#34;&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon icon-tabler icon-tabler-hash&#34; width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+  &lt;path stroke=&#34;none&#34; d=&#34;M0 0h24v24H0z&#34;/&gt;
+  &lt;line x1=&#34;5&#34; y1=&#34;9&#34; x2=&#34;19&#34; y2=&#34;9&#34; /&gt;
+  &lt;line x1=&#34;5&#34; y1=&#34;15&#34; x2=&#34;19&#34; y2=&#34;15&#34; /&gt;
+  &lt;line x1=&#34;11&#34; y1=&#34;4&#34; x2=&#34;7&#34; y2=&#34;20&#34; /&gt;
+  &lt;line x1=&#34;17&#34; y1=&#34;4&#34; x2=&#34;13&#34; y2=&#34;20&#34; /&gt;
+&lt;/svg&gt;
 
-&lt;div class=&#34;categories-list&#34;&gt;
-    
-    &lt;div class=&#34;category-item&#34;&gt;
-        &lt;a href=&#34;https://ztsCream.github.io/%20/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB&#34; class=&#34;category-link&#34;&gt;
-            &lt;span class=&#34;category-name&#34;&gt;技术分享&lt;/span&gt;
-            &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&#34;category-item&#34;&gt;
-        &lt;a href=&#34;https://ztsCream.github.io/%20/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5&#34; class=&#34;category-link&#34;&gt;
-            &lt;span class=&#34;category-name&#34;&gt;技术实践&lt;/span&gt;
-            &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&#34;category-item&#34;&gt;
-        &lt;a href=&#34;https://ztsCream.github.io/%20/categories/%E6%95%99%E7%A8%8B&#34; class=&#34;category-link&#34;&gt;
-            &lt;span class=&#34;category-name&#34;&gt;教程&lt;/span&gt;
-            &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&#34;category-item&#34;&gt;
-        &lt;a href=&#34;https://ztsCream.github.io/%20/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94&#34; class=&#34;category-link&#34;&gt;
-            &lt;span class=&#34;category-name&#34;&gt;生活随笔&lt;/span&gt;
-            &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-    
-&lt;/div&gt;
 
+
+    &lt;/div&gt;
+    &lt;h2 class=&#34;widget-title section-title&#34;&gt;分类&lt;/h2&gt;
+    &lt;div class=&#34;categories-list&#34;&gt;
+        
+        
+        &lt;div class=&#34;category-item&#34;&gt;
+            &lt;a href=&#34;https://ztsCream.github.io/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/&#34; class=&#34;category-link&#34;&gt;
+                &lt;span class=&#34;category-name&#34;&gt;技术分享&lt;/span&gt;
+                &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;category-item&#34;&gt;
+            &lt;a href=&#34;https://ztsCream.github.io/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/&#34; class=&#34;category-link&#34;&gt;
+                &lt;span class=&#34;category-name&#34;&gt;技术实践&lt;/span&gt;
+                &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;category-item&#34;&gt;
+            &lt;a href=&#34;https://ztsCream.github.io/categories/%E6%95%99%E7%A8%8B/&#34; class=&#34;category-link&#34;&gt;
+                &lt;span class=&#34;category-name&#34;&gt;教程&lt;/span&gt;
+                &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;category-item&#34;&gt;
+            &lt;a href=&#34;https://ztsCream.github.io/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/&#34; class=&#34;category-link&#34;&gt;
+                &lt;span class=&#34;category-name&#34;&gt;生活随笔&lt;/span&gt;
+                &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        
+        
+    &lt;/div&gt;
+&lt;/section&gt;
 
 &lt;style&gt;
     .categories-list {
@@ -170,6 +185,7 @@
         flex-wrap: wrap;
         gap: 10px;
         margin: 20px 0;
+        justify-content: center;
     }
 
     .category-item {
@@ -200,62 +216,72 @@
     }
 &lt;/style&gt;
 &lt;h2 id=&#34;标签云&#34;&gt;标签云
-&lt;/h2&gt;
+&lt;/h2&gt;&lt;section class=&#34;widget tagCloud&#34;&gt;
+    &lt;div class=&#34;widget-icon&#34;&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon icon-tabler icon-tabler-tag&#34; width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+  &lt;path stroke=&#34;none&#34; d=&#34;M0 0h24v24H0z&#34;/&gt;
+  &lt;path d=&#34;M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4&#34; /&gt;
+  &lt;circle cx=&#34;9&#34; cy=&#34;9&#34; r=&#34;2&#34; /&gt;
+&lt;/svg&gt;
 
-&lt;div class=&#34;tag-cloud&#34;&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/%20/tags/ai&#34; class=&#34;tag-item&#34;&gt;
-        ai
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/%20/tags/hugo&#34; class=&#34;tag-item&#34;&gt;
-        hugo
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/%20/tags/%E5%88%86%E4%BA%AB&#34; class=&#34;tag-item&#34;&gt;
-        分享
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/%20/tags/%E5%8D%9A%E5%AE%A2&#34; class=&#34;tag-item&#34;&gt;
-        博客
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/%20/tags/%E5%BF%83%E6%83%85&#34; class=&#34;tag-item&#34;&gt;
-        心情
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/%20/tags/%E6%95%99%E7%A8%8B&#34; class=&#34;tag-item&#34;&gt;
-        教程
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/%20/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&#34; class=&#34;tag-item&#34;&gt;
-        机器学习
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/%20/tags/%E7%94%9F%E6%B4%BB&#34; class=&#34;tag-item&#34;&gt;
-        生活
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/%20/tags/%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99&#34; class=&#34;tag-item&#34;&gt;
-        静态网站
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/%20/tags/%E9%A1%B9%E7%9B%AE&#34; class=&#34;tag-item&#34;&gt;
-        项目
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-&lt;/div&gt;
 
+
+    &lt;/div&gt;
+    &lt;h2 class=&#34;widget-title section-title&#34;&gt;标签云&lt;/h2&gt;
+    &lt;div class=&#34;tagCloud-tags&#34;&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/tags/ai/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            AI
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/tags/hugo/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            Hugo
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/tags/%E5%88%86%E4%BA%AB/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            分享
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/tags/%E5%8D%9A%E5%AE%A2/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            博客
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/tags/%E5%BF%83%E6%83%85/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            心情
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/tags/%E6%95%99%E7%A8%8B/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            教程
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            机器学习
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/tags/%E7%94%9F%E6%B4%BB/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            生活
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/tags/%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            静态网站
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/tags/%E9%A1%B9%E7%9B%AE/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            项目
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+    &lt;/div&gt;
+&lt;/section&gt;
 
 &lt;style&gt;
     .tag-cloud {

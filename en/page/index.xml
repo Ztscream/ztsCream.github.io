@@ -16,39 +16,54 @@
         <description>&lt;h1 id=&#34;categories--tags&#34;&gt;Categories &amp;amp; Tags
 &lt;/h1&gt;&lt;h2 id=&#34;categories&#34;&gt;Categories
 &lt;/h2&gt;
+&lt;section class=&#34;widget categoriesCloud&#34;&gt;
+    &lt;div class=&#34;widget-icon&#34;&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon icon-tabler icon-tabler-hash&#34; width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+  &lt;path stroke=&#34;none&#34; d=&#34;M0 0h24v24H0z&#34;/&gt;
+  &lt;line x1=&#34;5&#34; y1=&#34;9&#34; x2=&#34;19&#34; y2=&#34;9&#34; /&gt;
+  &lt;line x1=&#34;5&#34; y1=&#34;15&#34; x2=&#34;19&#34; y2=&#34;15&#34; /&gt;
+  &lt;line x1=&#34;11&#34; y1=&#34;4&#34; x2=&#34;7&#34; y2=&#34;20&#34; /&gt;
+  &lt;line x1=&#34;17&#34; y1=&#34;4&#34; x2=&#34;13&#34; y2=&#34;20&#34; /&gt;
+&lt;/svg&gt;
 
-&lt;div class=&#34;categories-list&#34;&gt;
-    
-    &lt;div class=&#34;category-item&#34;&gt;
-        &lt;a href=&#34;https://ztsCream.github.io/en/%20/categories/life-notes&#34; class=&#34;category-link&#34;&gt;
-            &lt;span class=&#34;category-name&#34;&gt;life notes&lt;/span&gt;
-            &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&#34;category-item&#34;&gt;
-        &lt;a href=&#34;https://ztsCream.github.io/en/%20/categories/tech-sharing&#34; class=&#34;category-link&#34;&gt;
-            &lt;span class=&#34;category-name&#34;&gt;tech sharing&lt;/span&gt;
-            &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&#34;category-item&#34;&gt;
-        &lt;a href=&#34;https://ztsCream.github.io/en/%20/categories/technical-practice&#34; class=&#34;category-link&#34;&gt;
-            &lt;span class=&#34;category-name&#34;&gt;technical practice&lt;/span&gt;
-            &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&#34;category-item&#34;&gt;
-        &lt;a href=&#34;https://ztsCream.github.io/en/%20/categories/tutorial&#34; class=&#34;category-link&#34;&gt;
-            &lt;span class=&#34;category-name&#34;&gt;tutorial&lt;/span&gt;
-            &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-    
-&lt;/div&gt;
 
+
+    &lt;/div&gt;
+    &lt;h2 class=&#34;widget-title section-title&#34;&gt;分类&lt;/h2&gt;
+    &lt;div class=&#34;categories-list&#34;&gt;
+        
+        
+        &lt;div class=&#34;category-item&#34;&gt;
+            &lt;a href=&#34;https://ztsCream.github.io/en/categories/life-notes/&#34; class=&#34;category-link&#34;&gt;
+                &lt;span class=&#34;category-name&#34;&gt;life notes&lt;/span&gt;
+                &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;category-item&#34;&gt;
+            &lt;a href=&#34;https://ztsCream.github.io/en/categories/tech-sharing/&#34; class=&#34;category-link&#34;&gt;
+                &lt;span class=&#34;category-name&#34;&gt;tech sharing&lt;/span&gt;
+                &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;category-item&#34;&gt;
+            &lt;a href=&#34;https://ztsCream.github.io/en/categories/technical-practice/&#34; class=&#34;category-link&#34;&gt;
+                &lt;span class=&#34;category-name&#34;&gt;technical practice&lt;/span&gt;
+                &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&#34;category-item&#34;&gt;
+            &lt;a href=&#34;https://ztsCream.github.io/en/categories/tutorial/&#34; class=&#34;category-link&#34;&gt;
+                &lt;span class=&#34;category-name&#34;&gt;tutorial&lt;/span&gt;
+                &lt;span class=&#34;category-count&#34;&gt;(1)&lt;/span&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        
+        
+    &lt;/div&gt;
+&lt;/section&gt;
 
 &lt;style&gt;
     .categories-list {
@@ -56,6 +71,7 @@
         flex-wrap: wrap;
         gap: 10px;
         margin: 20px 0;
+        justify-content: center;
     }
 
     .category-item {
@@ -86,62 +102,72 @@
     }
 &lt;/style&gt;
 &lt;h2 id=&#34;tag-cloud&#34;&gt;Tag Cloud
-&lt;/h2&gt;
+&lt;/h2&gt;&lt;section class=&#34;widget tagCloud&#34;&gt;
+    &lt;div class=&#34;widget-icon&#34;&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon icon-tabler icon-tabler-tag&#34; width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; fill=&#34;none&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+  &lt;path stroke=&#34;none&#34; d=&#34;M0 0h24v24H0z&#34;/&gt;
+  &lt;path d=&#34;M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4&#34; /&gt;
+  &lt;circle cx=&#34;9&#34; cy=&#34;9&#34; r=&#34;2&#34; /&gt;
+&lt;/svg&gt;
 
-&lt;div class=&#34;tag-cloud&#34;&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/en/%20/tags/ai&#34; class=&#34;tag-item&#34;&gt;
-        ai
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/en/%20/tags/blog&#34; class=&#34;tag-item&#34;&gt;
-        blog
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/en/%20/tags/hugo&#34; class=&#34;tag-item&#34;&gt;
-        hugo
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/en/%20/tags/life&#34; class=&#34;tag-item&#34;&gt;
-        life
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/en/%20/tags/machine-learning&#34; class=&#34;tag-item&#34;&gt;
-        machine learning
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/en/%20/tags/mood&#34; class=&#34;tag-item&#34;&gt;
-        mood
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/en/%20/tags/project&#34; class=&#34;tag-item&#34;&gt;
-        project
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/en/%20/tags/sharing&#34; class=&#34;tag-item&#34;&gt;
-        sharing
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/en/%20/tags/static-site&#34; class=&#34;tag-item&#34;&gt;
-        static site
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-    &lt;a href=&#34;https://ztsCream.github.io/en/%20/tags/tutorial&#34; class=&#34;tag-item&#34;&gt;
-        tutorial
-        &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
-    &lt;/a&gt;
-    
-&lt;/div&gt;
 
+
+    &lt;/div&gt;
+    &lt;h2 class=&#34;widget-title section-title&#34;&gt;Tags&lt;/h2&gt;
+    &lt;div class=&#34;tagCloud-tags&#34;&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/en/tags/ai/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            AI
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/en/tags/blog/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            Blog
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/en/tags/hugo/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            Hugo
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/en/tags/life/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            Life
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/en/tags/machine-learning/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            Machine Learning
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/en/tags/mood/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            Mood
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/en/tags/project/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            Project
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/en/tags/sharing/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            Sharing
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/en/tags/static-site/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            Static Site
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+        &lt;a href=&#34;https://ztsCream.github.io/en/tags/tutorial/&#34; class=&#34;tag-item font_size_1&#34;&gt;
+            Tutorial
+            &lt;span class=&#34;tag-count&#34;&gt;(1)&lt;/span&gt;
+        &lt;/a&gt;
+        
+    &lt;/div&gt;
+&lt;/section&gt;
 
 &lt;style&gt;
     .tag-cloud {
